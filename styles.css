@@ -1,0 +1,2054 @@
+@font-face {
+    font-family: BradescoSans;
+    src: url(/assets/fonts/BradescoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: BradescoSans-Bold;
+    src: url(/assets/fonts/BradescoSans-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: #CC032D;
+    background-image: url(/assets/images/Layer-15.png);
+    background-repeat: no-repeat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+body::after{
+    content: "";
+    background-image: url(assets/images/textura.png);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.imgscta {
+    margin: 0 0 0 -60px;
+}
+
+.cta {
+    margin: 100px 0 0 0px;
+    width: 225px;
+    height: 259px;
+}
+
+.raios {
+    position: absolute;
+    margin: 25px 0 0 -60px;
+    width: 73px;
+    height: 89px;
+}
+
+.maocartao {
+    position: absolute;
+    margin: 195px 0 0 -45px;
+    width: 103px;
+    height: 110px;
+    transform: scaleX(-1);
+}
+
+.coracaochamas {
+    display: none;
+}
+
+.skate {
+    display: none;
+}
+
+.casal {
+    display: none;
+}
+
+
+.h1 {
+    font-family: BradescoSans;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    width: 270px;
+    margin: 15px 0 20px 0px;
+}
+
+.flechas {
+    margin: 0 0 0 -45px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 280px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 150px 0;
+}
+
+.personagem1 {
+    margin: -55px 0 30px 0;
+    width: 189px;
+    height: 184px;
+}
+
+.card1titulo {
+    font-family: BradescoSans-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CC032D;
+    text-align: center;
+    width: 200px;
+    margin: 0 0 30px 0;
+}
+
+.card1texto {
+    font-family: BradescoSans;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 220px;
+    margin: 0 0 25px 0;
+}
+
+.card1botaofundo {
+    width: 200px;
+    height: 42px;
+    border-radius: 73px;
+    border: none;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1botaofundo:hover {
+    background-color: #CC032D;
+    cursor: pointer;
+}
+
+.card1botaofundo:hover .card1botao {
+    background-color: #B80228;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card1botao {
+    width: 190px;
+    height: 32px;
+    border-radius: 73px;
+    border: none;
+    background-color: #FBFBFB;
+    font-size: 18px;
+    color: #CC032D;
+    font-family: BradescoSans-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maocoracao {
+    position: absolute;
+    margin: 350px 0 0 250px;
+    width: 46px;
+    height: 83px;
+}
+
+.personagem2 {
+    margin: -70px 0 30px 0;
+    width: 62px;
+    height: 164px;
+}
+
+.card2titulo {
+    font-family: BradescoSans-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CC032D;
+    text-align: center;
+    width: 240px;
+    margin: 0 0 30px 0;
+}
+
+.card2texto {
+    font-family: BradescoSans;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 250px;
+    margin: 0 0 30px 0;
+}
+
+.maocelular1 {
+    position: absolute;
+    margin: 335px 0 0 250px;
+    width: 65px;
+    height: 123px;
+}
+
+.personagem3 {
+    margin: -80px 0 20px 0;
+    width: 78px;
+    height: 172px;
+}
+
+.card3titulo {
+    font-family: BradescoSans-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CC032D;
+    text-align: center;
+    width: 240px;
+    margin: 0 0 30px 0;
+}
+
+.card3texto {
+    font-family: BradescoSans;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 210px;
+    margin: -10px 0 30px 0;
+}
+
+.chapeu {
+    position: absolute;
+    margin: 360px 0 0 210px;
+    width: 85px;
+}
+
+.personagem4 {
+    margin: -60px 0 30px 0;
+    width: 173px;
+    height: 164px;
+}
+
+.card4texto {
+    font-family: BradescoSans;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0 40px 0;
+}
+
+.mala {
+    position: absolute;
+    margin: 335px 0 0 245px;
+    width: 54px;
+    height: 99px;
+}
+
+.personagem5 {
+    margin: -70px 0 25px 0;
+    width: 163px;
+    height: 168px;
+}
+
+.card5titulo {
+    font-family: BradescoSans-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CC032D;
+    text-align: center;
+    width: 180px;
+    margin: 0 0 30px 0;
+}
+
+#card5infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card5texto {
+    font-family: BradescoSans;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 270px;
+    margin: -10px 0 20px 0;
+}
+
+.card5botaofundo {
+    width: 200px;
+    height: 42px;
+    border-radius: 73px;
+    border: none;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 0 20px 0;
+}
+
+.card5botaofundo:hover {
+    background-color: #CC032D;
+    cursor: pointer;
+}
+
+.card5botaofundo:hover .card5botao {
+    background-color: #B80228;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card5botao {
+    width: 190px;
+    height: 32px;
+    border-radius: 73px;
+    border: none;
+    background-color: #FBFBFB;
+    font-size: 12px;
+    color: #CC032D;
+    font-family: BradescoSans-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card5infosQR1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card5infosQR2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card5texto2 {
+    font-family: BradescoSans;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    width: 270px;
+    margin: -10px 0 20px 0;
+}
+
+.qr {
+    width: 150px;
+    height: 150px;
+    margin: -10px 0 0 0;
+}
+
+.maocelular2 {
+    position: absolute;
+    margin: 320px 0 0 250px;
+    width: 65px;
+    height: 123px;
+}
+
+.card6 {
+    background-color: #ffffff;
+    width: 280px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 110px 0 35px 0;
+}
+
+.personagem6 {
+    margin: -80px 0 50px 0;
+    width: 167px;
+    height: 169px;
+}
+
+.card6titulo {
+    font-family: BradescoSans-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CC032D;
+    text-align: center;
+    width: 240px;
+    margin: 0 0 60px 0;
+}
+
+.card6texto {
+    font-family: BradescoSans;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 220px;
+    margin: -10px 0 20px 0;
+}
+
+.boca {
+    position: absolute;
+    margin: 345px 0 0 215px;
+    width: 63px;
+    height: 67px;
+}
+
+.consulte {
+    font-family: BradescoSans;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    width: 270px;
+    margin: 10px 0 40px 0;
+}
+
+.ctaazul {
+    background-color: #0033C4;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.ctaazul::after{
+    content: "";
+    background-image: url(assets/images/textura.png);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.ctaazulbotao1 {
+    width: 200px;
+    height: 42px;
+    border-radius: 73px;
+    border: none;
+    background-color: #FBFBFB;
+    font-size: 12px;
+    color: #CC032D;
+    font-family: BradescoSans-Bold;
+    margin: 60px 0 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaazulbotao1:hover {
+    background-color:#CC032D;
+    color:#FBFBFB;
+}
+
+.ctaazulbotao2 {
+    width: 200px;
+    height: 42px;
+    border-radius: 73px;
+    border: none;
+    background-color: #FBFBFB;
+    font-size: 12px;
+    color: #CC032D;
+    font-family: BradescoSans-Bold;
+    margin: 35px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaazulbotao2:hover {
+    background-color:#CC032D;
+    color:#FBFBFB;
+}
+
+.maocartao2 {
+    position: absolute;
+    margin: 20px 0 0 -280px;
+    width: 94px;
+    height: 100px;
+    transform: rotate(8deg);
+}
+
+.maocelular3 {
+    position: absolute;
+    margin: 105px 0 0 265px;
+    width: 55px;
+    height: 104px;
+    transform: rotate(-30deg);
+}
+
+.pecacartao {
+    background-color: #ffffff;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.textopeca {
+    font-family: BradescoSans-Bold;
+    color: #CC032D;
+    margin: 0 30px 0 0;
+}
+
+@media (min-width: 480px) and (max-width:639px) {
+
+    .cta {
+        width: 244px;
+        height: 281px;
+        margin: 100px 0 0 -75px;
+    }
+
+    .raios {
+        display: none;
+    }
+
+    .maocartao {
+        display: none;
+    }
+
+    .casal {
+        display: none;
+    }
+
+
+    .coracaochamas {
+        display: block;
+        position: absolute;
+        margin: -320px 0 0 40px;
+        width: 65px;
+        height: 77px;
+    }
+
+    .skate {
+        display: block;
+        position: absolute;
+        margin: -250px 0 0 155px;
+        width: 161px;
+        height: 238px;
+    }
+
+    .h1 {
+        font-size: 14px;
+        line-height: 19px;
+        width: 310px;
+        margin: 15px 0 20px -65px;
+    }
+    
+    .flechas {
+        margin: 0 0 15px -280px;
+    }
+
+    .card {
+        width: 375px;
+        height: 400px;
+        margin: 100px 0 150px 0;
+    }
+
+    .personagem1 {
+        margin: -55px 0 30px 0;
+        width: 189px;
+        height: 184px;
+    }
+    
+    .card1titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card1texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 260px;
+        margin: 0 0 25px 0;
+    }
+    
+    .card1botaofundo {
+        width: 200px;
+        height: 42px;
+    }
+    
+    .card1botao {
+        width: 190px;
+        height: 32px;
+        font-size: 18px;
+    }
+    
+    .maocoracao {
+        margin: 310px 0 0 330px;
+        width: 46px;
+        height: 93px;
+    }
+
+    .personagem2 {
+        margin: -70px 0 30px 0;
+        width: 62px;
+        height: 164px;
+    }
+    
+    .card2titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 20px 0;
+    }
+    
+    .card2texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 280px;
+        margin: 0 0 20px 0;
+    }
+    
+    .maocelular1 {
+        margin: 320px 0 0 315px;
+        width: 55px;
+        height: 104px;
+    }
+
+    .personagem3 {
+        margin: -80px 0 25px 0;
+        width: 78px;
+        height: 172px;
+    }
+
+    .card3titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 290px;
+        margin: 0 0 20px 0;
+    }
+    
+    .card3texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 270px;
+        margin: 10px 0 35px 0;
+    }
+    
+    .chapeu {
+        margin: 355px 0 0 300px;
+        width: 86px;
+    }
+
+    .personagem4 {
+        margin: -70px 0 50px 0;
+        width: 173px;
+        height: 164px;
+    }
+    
+    .card4texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 250px;
+        margin: 10px 0 25px 0;
+    }
+    
+    .mala {
+        margin: 325px 0 0 300px;
+        width: 54px;
+        height: 99px;
+    }
+
+    .personagem5 {
+        margin: -75px 0 25px 0;
+        width: 163px;
+        height: 168px;
+    }
+    
+    .card5titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 180px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card5texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 310px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .card5botaofundo {
+        width: 200px;
+        height: 42px;
+        margin: 5px 0 12px 0;
+    }
+    
+    .card5botao {
+        width: 190px;
+        height: 32px;
+        font-size: 12px;
+    }
+    
+    .maocelular2 {
+        margin: 315px 0 0 310px;
+        width: 64px;
+        height: 123px;
+    }
+
+    .card6 {
+        width: 375px;
+        height: 400px;
+        margin: 120px 0 35px 0;
+    }
+    
+    .personagem6 {
+        margin: -75px 0 50px 0;
+        width: 167px;
+        height: 169px;
+    }
+    
+    .card6titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 400px;
+        margin: 0 0 60px 0;
+    }
+    
+    .card6texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 310px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .boca {
+        margin: 325px 0 0 300px;
+        width: 75px;
+        height: 77px;
+    }
+
+    .consulte {
+        font-size: 16px;
+        line-height: 24px;
+        width: 340px;
+        margin: 20px 0 55px 0;
+    }
+    
+    .ctaazulbotao1 {
+        width: 300px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #0033C4;
+        margin: 60px 0 0px 0;
+    }
+    
+    .ctaazulbotao2 {
+        width: 300px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #0033C4;
+        margin: 20px 0 25px 0;
+    }
+    
+    .maocartao2 {
+        margin: 60px 0 0 -380px;
+        width: 69px;
+        height: 74px;
+        transform: rotate(-1deg);
+    }
+    
+    .maocelular3 {
+        margin: 120px 0 0 375px;
+        width: 55px;
+        height: 104px;
+        transform: rotate(0deg);
+    }
+    
+    .pecacartao {
+        background-color: #ffffff;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 63px;
+        position: sticky;
+        bottom: 0;
+    }
+    
+    .textopeca {
+        font-family: BradescoSans-Bold;
+        color: #CC032D;
+        margin: 0 30px 0 0;
+    }
+
+}
+
+@media (min-width: 640px) and (max-width:767px) {
+
+    .cta {
+        width: 317px;
+        height: 365px;
+        margin: 100px 0 0 -115px;
+    }
+
+    .raios {
+        display: none;
+    }
+
+    .maocartao {
+        display: none;
+    }
+
+    .casal {
+        display: none;
+    }
+
+    .coracaochamas {
+        display: block;
+        position: absolute;
+        margin: -400px 0 0 30px;
+        width: 67px;
+        height: 80px;
+    }
+
+    .skate {
+        display: block;
+        position: absolute;
+        margin: -330px 0 0 180px;
+        width: 211px;
+        height: 310px;
+    }
+
+    .h1 {
+        line-height: 19px;
+        width: 310px;
+        margin: 15px 0 20px -165px;
+    }
+    
+    .flechas {
+        margin: 0 0 15px -375px;
+    }
+
+    .card {
+        width: 473px;
+        height: 489px;
+        margin: 150px 0 200px 0;
+    }
+
+    .personagem1 {
+        margin: -120px 0 30px 0;
+        width: 265px;
+        height: 258px;
+    }
+    
+    .card1titulo {
+        font-size: 30px;
+        line-height: 36px;
+        width: 320px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card1texto {
+        font-size: 16px;
+        line-height: 21px;
+        width: 280px;
+        margin: 0 0 25px 0;
+    }
+    
+    .card1botaofundo {
+        width: 331px;
+        height: 70px;
+    }
+    
+    .card1botao {
+        width: 322px;
+        height: 61px;
+        font-size: 30px;
+    }
+    
+    .maocoracao {
+        margin: 425px 0 0 450px;
+        width: 71px;
+        height: 129px;
+    }
+
+    .personagem2 {
+        margin: -135px 0 30px 0;
+        width: 88px;
+        height: 228px;
+    }
+    
+    .card2titulo {
+        font-size: 30px;
+        line-height: 34px;
+        width: 410px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card2texto {
+        font-size: 16px;
+        line-height: 21px;
+        width: 377px;
+        margin: 0 0 30px 0;
+    }
+    
+    .maocelular1 {
+        margin: 390px 0 0 410px;
+        width: 64px;
+        height: 121px;
+    }
+
+    .personagem3 {
+        margin: -115px 0 20px 0;
+        width: 109px;
+        height: 241px;
+    }
+
+    .card3titulo {
+        font-size: 30px;
+        line-height: 35px;
+        width: 410px;
+        margin: -10px 0 30px 0;
+    }
+    
+    .card3texto {
+        font-size: 16px;
+        line-height: 21px;
+        width: 310px;
+        margin: -10px 0 15px 0;
+    }
+    
+    .chapeu {
+        margin: 435px 0 0 380px;
+        width: 112px;
+    }
+
+    .personagem4 {
+        margin: -115px 0 50px 0;
+        width: 221px;
+        height: 209px;
+    }
+    
+    .card4texto {
+        font-size: 16px;
+        line-height: 21px;
+        width: 390px;
+        margin: 20px 0 40px 0;
+    }
+    
+    .mala {
+        margin: 370px 0 0 420px;
+        width: 80px;
+        height: 145px;
+    }
+
+    .personagem5 {
+        margin: -110px 0 25px 0;
+        width: 205px;
+        height: 211px;
+    }
+    
+    .card5titulo {
+        font-size: 30px;
+        line-height: 36px;
+        width: 270px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card5texto {
+        font-size: 16px;
+        line-height: 21px;
+        width: 360px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .card5botaofundo {
+        width: 331px;
+        height: 70px;
+        margin: 5px 0 20px 0;
+    }
+    
+    .card5botao {
+        width: 322px;
+        height: 61px;
+        font-size: 18px;
+    }
+
+    .card5texto2 {
+        font-size: 16px;
+        line-height: 21px;
+        width: 360px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .qr {
+        width: 200px;
+        height: 200px;
+        margin: -10px 0 0 0;
+    }
+    
+    .maocelular2 {
+        margin: 380px 0 0 440px;
+        width: 64px;
+        height: 121px;
+    }
+
+    .card6 {
+        width: 473px;
+        height: 489px;
+        margin: 150px 0 35px 0;
+    }
+    
+    .personagem6 {
+        margin: -100px 0 50px 0;
+        width: 196px;
+        height: 198px;
+    }
+    
+    .card6titulo {
+        font-size: 30px;
+        line-height: 35px;
+        width: 400px;
+        margin: 0 0 60px 0;
+    }
+    
+    .card6texto {
+        font-size: 16px;
+        line-height: 21px;
+        width: 350px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .boca {
+        margin: 375px 0 0 395px;
+        width: 134px;
+        height: 146px;
+    }
+
+    .consulte {
+        font-size: 16px;
+        line-height: 24px;
+        width: 450px;
+        margin: 35px 0 56px 0;
+    }
+    
+    .ctaazulbotao1 {
+        width: 300px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #0033C4;
+        margin: 60px 0 0px 0;
+    }
+    
+    .ctaazulbotao2 {
+        width: 300px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #0033C4;
+        margin: 30px 0 90px 0;
+    }
+    
+    .maocartao2 {
+        margin: 55px 0 0 -460px;
+        width: 136px;
+        height: 146px;
+        transform: rotate(-1deg);
+    }
+    
+    .maocelular3 {
+        margin: 65px 0 0 450px;
+        width: 72px;
+        height: 136px;
+        transform: rotate(0deg);
+    }
+    
+    .pecacartao {
+        background-color: #ffffff;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 63px;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .textopeca {
+        font-family: BradescoSans-Bold;
+        color: #CC032D;
+        margin: 0 30px 0 0;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+    .cta {
+        width: 213px;
+        height: 245px;
+        margin: 100px auto 0 auto;
+    }
+
+    .raios {
+        display: block;
+        position: absolute;
+        margin: -340px 0 0 -55px;
+        width: 74px;
+        height: 91px;
+    }
+
+    .maocartao {
+        display: none;
+    }
+
+    .casal {
+        display: block;
+        position: absolute;
+        margin: -260px 0 0 -170px;
+        width: 152px;
+        height: 318px;
+    }
+
+    .coracaochamas {
+        display: block;
+        position: absolute;
+        margin: -290px 0 0 95px;
+        width: 67px;
+        height: 80px;
+    }
+
+    .skate {
+        display: block;
+        position: absolute;
+        margin: -300px 0 0 215px;
+        width: 211px;
+        height: 310px;
+    }
+
+    .h1 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 300px;
+        margin: 20px 0 0 35px;
+    }
+    
+    .flechas {
+        margin: 15px 0 0px -165px;
+    }
+
+    .containercards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: -60px 0 0 0;
+    }
+
+    .card {
+        width: 280px;
+        height: 400px;
+        margin: 150px 0px 35px 0px;
+    }
+
+    .personagem1 {
+        margin: -50px 0 30px 0;
+        width: 189px;
+        height: 184px;
+    }
+    
+    .card1titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card1texto {
+        font-size: 12px;
+        line-height: 16px;
+        width: 210px;
+        margin: 0 0 25px 0;
+    }
+    
+    .card1botaofundo {
+        width: 199px;
+        height: 42px;
+    }
+    
+    .card1botao {
+        width: 189px;
+        height: 32px;
+        font-size: 18px;
+    }
+    
+    .maocoracao {
+        margin: 350px 0 0 250px;
+        width: 46px;
+        height: 83px;
+    }
+
+    .personagem2 {
+        margin: -70px 0 30px 0;
+        width: 62px;
+        height: 164px;
+    }
+    
+    .card2titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card2texto {
+        font-size: 12px;
+        line-height: 16px;
+        width: 260px;
+        margin: 0 0 30px 0;
+    }
+    
+    .maocelular1 {
+        margin: 330px 0 0 250px;
+        width: 58px;
+        height: 110px;
+    }
+
+    .personagem3 {
+        margin: -80px 0 20px 0;
+        width: 78px;
+        height: 172px;
+    }
+
+    .card3titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 200px;
+        margin: -10px 0 30px 0;
+    }
+    
+    .card3texto {
+        font-size: 12px;
+        line-height: 16px;
+        width: 210px;
+        margin: -10px 0 25px 0;
+    }
+    
+    .chapeu {
+        margin: 360px 0 0 210px;
+        width: 86px;
+    }
+
+    .personagem4 {
+        margin: -60px 0 50px 0;
+        width: 173px;
+        height: 164px;
+    }
+    
+    .card4texto {
+        font-size: 12px;
+        line-height: 16px;
+        width: 230px;
+        margin: 0px 0 20px 0;
+    }
+    
+    .mala {
+        margin: 330px 0 0 240px;
+        width: 54px;
+        height: 99px;
+    }
+
+    .personagem5 {
+        margin: -70px 0 25px 0;
+        width: 163px;
+        height: 168px;
+    }
+    
+    .card5titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 160px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card5texto {
+        font-size: 12px;
+        line-height: 16px;
+        width: 270px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .card5botaofundo {
+        width: 200px;
+        height: 42px;
+        margin: 5px 0 20px 0;
+    }
+    
+    .card5botao {
+        width: 190px;
+        height: 32px;
+        font-size: 12px;
+    }
+    
+    .maocelular2 {
+        margin: 330px 0 0 250px;
+        width: 58px;
+        height: 110px;
+    }
+
+    .card6 {
+        width: 280px;
+        height: 400px;
+        margin: 150px 0 40px 0;
+    }
+    
+    .personagem6 {
+        margin: -100px 0 50px 0;
+        width: 167px;
+        height: 169px;
+    }
+    
+    .card6titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 60px 0;
+    }
+    
+    .card6texto {
+        font-size: 12px;
+        line-height: 16px;
+        width: 220px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .boca {
+        margin: 335px 0 0 200px;
+        width: 80px;
+        height: 82px;
+    }
+
+    .consulte {
+        font-size: 14px;
+        line-height: 19px;
+        width: 550px;
+        margin: 35px 0 40px 0;
+    }
+
+    .ctaazul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ctaazulbotao1 {
+        width: 200px;
+        height: 30px;
+        border-radius: 12px;
+        font-size: 12px;
+        color: #0033C4;
+        margin: 45px 30px 45px 0;
+    }
+    
+    .ctaazulbotao2 {
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 12px;
+        color: #0033C4;
+        margin: 45px 0 45px 0;
+    }
+    
+    .maocartao2 {
+        margin: 0px 0 0 -550px;
+        width: 80px;
+        height: 85px;
+        transform: rotate(-1deg);
+    }
+    
+    .maocelular3 {
+        margin: -20px 0 0 550px;
+        width: 48px;
+        height: 91px;
+        transform: rotate(0deg);
+    }
+    
+    .pecacartao {
+        background-color: #ffffff;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 57px;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .textopeca {
+        font-family: BradescoSans-Bold;
+        color: #CC032D;
+        margin: 0 20px 0 0;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:2219px) {
+
+    .cta {
+        width: 301px;
+        height: 347px;
+        margin: 100px auto 0 auto;
+    }
+
+    .raios {
+        display: block;
+        position: absolute;
+        margin: -410px 0 0 -120px;
+        width: 105px;
+        height: 129px;
+    }
+
+    .maocartao {
+        display: none;
+    }
+
+    .casal {
+        display: block;
+        position: absolute;
+        margin: -260px 0 0 -230px;
+        width: 174px;
+        height: 365px;
+    }
+
+    .coracaochamas {
+        display: block;
+        position: absolute;
+        margin: -380px 0 0 130px;
+        width: 74px;
+        height: 88px;
+    }
+
+    .skate {
+        display: block;
+        position: absolute;
+        margin: -400px 0 0 310px;
+        width: 307px;
+        height: 451px;
+    }
+
+    .h1 {
+        font-size: 16px;
+        line-height: 21px;
+        width: 400px;
+        margin: 20px 0 0 50px;
+    }
+    
+    .flechas {
+        margin: 15px 0 0px -250px;
+    }
+
+    .containercards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 0 0 0;
+        width: 950px;
+    }
+
+    .card {
+        width: 375px;
+        height: 400px;
+        margin: 100px 0px 30px 0px;
+    }
+
+    .personagem1 {
+        margin: -50px 0 30px 0;
+        width: 189px;
+        height: 184px;
+    }
+    
+    .card1titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 20px 0;
+    }
+    
+    .card1texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 250px;
+        margin: 0 0 25px 0;
+    }
+    
+    .card1botaofundo {
+        width: 199px;
+        height: 42px;
+    }
+    
+    .card1botao {
+        width: 189px;
+        height: 32px;
+        font-size: 18px;
+    }
+    
+    .maocoracao {
+        margin: 320px 0 0 330px;
+        width: 46px;
+        height: 83px;
+    }
+
+    .personagem2 {
+        margin: -70px 0 30px 0;
+        width: 62px;
+        height: 164px;
+    }
+    
+    .card2titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 20px 0;
+    }
+    
+    .card2texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 280px;
+        margin: 0 0 20px 0;
+    }
+    
+    .maocelular1 {
+        margin: 305px 0 0 310px;
+        width: 58px;
+        height: 110px;
+    }
+
+    .personagem3 {
+        margin: -80px 0 30px 0;
+        width: 78px;
+        height: 172px;
+    }
+
+    .card3titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 290px;
+        margin: -10px 0 30px 0;
+    }
+    
+    .card3texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 260px;
+        margin: -10px 0 25px 0;
+    }
+    
+    .chapeu {
+        margin: 355px 0 0 300px;
+        width: 86px;
+    }
+
+    .personagem4 {
+        margin: -60px 0 30px 0;
+        width: 173px;
+        height: 164px;
+    }
+    
+    .card4texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 260px;
+        margin: 10px 0 30px 0;
+    }
+    
+    .mala {
+        margin: 325px 0 0 300px;
+        width: 54px;
+        height: 99px;
+    }
+
+    .personagem5 {
+        margin: -70px 0 25px 0;
+        width: 163px;
+        height: 168px;
+    }
+    
+    .card5titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 160px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card5texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 310px;
+        margin: -10px 0 10px 0;
+    }
+    
+    .card5botaofundo {
+        width: 200px;
+        height: 42px;
+        margin: 5px 0 10px 0;
+    }
+    
+    .card5botao {
+        width: 190px;
+        height: 32px;
+        font-size: 12px;
+    }
+    
+    .maocelular2 {
+        margin: 325px 0 0 310px;
+        width: 58px;
+        height: 110px;
+    }
+
+    .card6 {
+        width: 375px;
+        height: 400px;
+        margin: 110px 0 40px 0;
+    }
+    
+    .personagem6 {
+        margin: -100px 0 50px 0;
+        width: 167px;
+        height: 169px;
+    }
+    
+    .card6titulo {
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
+        margin: 0 0 60px 0;
+    }
+    
+    .card6texto {
+        font-size: 14px;
+        line-height: 19px;
+        width: 310px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .boca {
+        margin: 335px 0 0 250px;
+        width: 80px;
+        height: 82px;
+    }
+
+    .consulte {
+        font-size: 20px;
+        line-height: 27px;
+        width: 780px;
+        margin: 35px 0 40px 0;
+    }
+
+    .ctaazul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ctaazulbotao1 {
+        width: 300px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #0033C4;
+        margin: 80px 30px 80px 0;
+    }
+    
+    .ctaazulbotao2 {
+        width: 300px;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #0033C4;
+        margin: 80px 0 80px 0;
+    }
+    
+    .maocartao2 {
+        margin: -20px 0 0 -760px;
+        width: 136px;
+        height: 145px;
+        transform: rotate(-1deg);
+    }
+    
+    .maocelular3 {
+        margin: -30px 0 0 780px;
+        width: 75px;
+        height: 142px;
+        transform: rotate(0deg);
+    }
+    
+    .pecacartao {
+        background-color: #ffffff;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 63px;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .textopeca {
+        font-family: BradescoSans-Bold;
+        color: #CC032D;
+        margin: 0 20px 0 0;
+        font-size: 18px;
+    }
+} 
+
+@media (min-width: 2220px) {
+
+    .cta {
+        width: 456px;
+        height: 524px;
+        margin: 100px 0 0 -200px;
+    }
+
+    .raios {
+        display: block;
+        position: absolute;
+        margin: -630px 0 0 -415px;
+        width: 149px;
+        height: 183px;
+    }
+
+    .maocartao {
+        display: none;
+    }
+
+    .casal {
+        display: block;
+        position: absolute;
+        margin: -450px 0 0 -550px;
+        width: 248px;
+        height: 520px;
+    }
+
+    .coracaochamas {
+        display: block;
+        position: absolute;
+        margin: -580px 0 0 0px;
+        width: 116px;
+        height: 138px;
+    }
+
+    .skate {
+        display: block;
+        position: absolute;
+        margin: -590px 0 0 260px;
+        width: 464px;
+        height: 682px;
+    }
+
+    .h1 {
+        font-size: 22px;
+        line-height: 30px;
+        width: 540px;
+        margin: 20px 0 0 -160px;
+    }
+    
+    .flechas {
+        margin: 15px 0 0px -600px;
+    }
+
+    .containercards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 0 0 0;
+        width: 1900px;
+    }
+
+    .card {
+        width: 606px;
+        height: 545px;
+        margin: 100px 0px 150px 0px;
+    }
+
+    .personagem1 {
+        margin: -120px 0 30px 0;
+        width: 265px;
+        height: 258px;
+    }
+    
+    .card1titulo {
+        font-size: 32px;
+        line-height: 37px;
+        width: 340px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card1texto {
+        font-size: 20px;
+        line-height: 27px;
+        width: 340px;
+        margin: 0 0 30px 0;
+    }
+    
+    .card1botaofundo {
+        width: 331px;
+        height: 70px;
+    }
+    
+    .card1botao {
+        width: 322px;
+        height: 61px;
+        font-size: 30px;
+    }
+    
+    .maocoracao {
+        margin: 400px 0 0 510px;
+        width: 99px;
+        height: 179px;
+    }
+
+    .personagem2 {
+        margin: -120px 0 40px 0;
+        width: 88px;
+        height: 230px;
+    }
+    
+    .card2titulo {
+        font-size: 29px;
+        line-height: 34px;
+        width: 530px;
+        margin: 0 0 40px 0;
+    }
+    
+    .card2texto {
+        font-size: 20px;
+        line-height: 27px;
+        width: 460px;
+        margin: 0 0 40px 0;
+    }
+    
+    .maocelular1 {
+        margin: 420px 0 0 540px;
+        width: 82px;
+        height: 156px;
+    }
+
+    .personagem3 {
+        margin: -130px 0 30px 0;
+        width: 129px;
+        height: 285px;
+    }
+
+    .card3titulo {
+        font-size: 30px;
+        line-height: 35px;
+        width: 480px;
+        margin: -10px 0 30px 0;
+    }
+    
+    .card3texto {
+        font-size: 20px;
+        line-height: 27px;
+        width: 370px;
+        margin: -10px 0 25px 0;
+    }
+    
+    .chapeu {
+        margin: 445px 0 0 430px;
+        width: 148px;
+    }
+
+    .personagem4 {
+        margin: -110px 0 40px 0;
+        width: 256px;
+        height: 242px;
+    }
+    
+    .card4texto {
+        font-size: 20px;
+        line-height: 27px;
+        width: 440px;
+        margin: 10px 0 40px 0;
+    }
+    
+    .mala {
+        margin: 400px 0 0 510px;
+        width: 98px;
+        height: 178px;
+    }
+
+    .personagem5 {
+        margin: -130px 0 25px 0;
+        width: 253px;
+        height: 260px;
+    }
+    
+    .card5titulo {
+        font-size: 30px;
+        line-height: 36px;
+        width: 270px;
+        margin: 0 0 40px 0;
+    }
+    
+    .card5texto {
+        font-size: 20px;
+        line-height: 27px;
+        width: 470px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .card5botaofundo {
+        width: 331px;
+        height: 70px;
+        margin: 5px 0 10px 0;
+    }
+    
+    .card5botao {
+        width: 322px;
+        height: 61px;
+        font-size: 18px;
+    }
+
+    .card5texto2 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 450px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .qr {
+        width: 200px;
+        height: 200px;
+        margin: -10px 0 0 0;
+    }
+    
+    .maocelular2 {
+        margin: 410px 0 0 520px;
+        width: 82px;
+        height: 156px;
+    }
+
+    .card6 {
+        width: 606px;
+        height: 545px;
+        margin: -10px 0 40px 0;
+    }
+    
+    .personagem6 {
+        margin: -130px 0 70px 0;
+        width: 278px;
+        height: 281px;
+    }
+    
+    .card6titulo {
+        font-size: 30px;
+        line-height: 35px;
+        width: 400px;
+        margin: 0 0 50px 0;
+    }
+    
+    .card6texto {
+        font-size: 20px;
+        line-height: 27px;
+        width: 440px;
+        margin: -10px 0 20px 0;
+    }
+    
+    .boca {
+        margin: 450px 0 0 560px;
+        width: 133px;
+        height: 143px;
+    }
+
+    .consulte {
+        font-size: 30px;
+        line-height: 40px;
+        width: 1160px;
+        margin: -50px 0 80px 0;
+    }
+
+    .ctaazul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ctaazulbotao1 {
+        width: 437px;
+        height: 77px;
+        border-radius: 20px;
+        font-size: 30px;
+        color: #0033C4;
+        margin: 80px 100px 80px 0;
+    }
+    
+    .ctaazulbotao2 {
+        width: 437px;
+        height: 77px;
+        border-radius: 20px;
+        font-size: 30px;
+        color: #0033C4;
+        margin: 80px 0 80px 0;
+    }
+    
+    .maocartao2 {
+        margin: 20px 0 0 -1200px;
+        width: 174px;
+        height: 186px;
+        transform: rotate(-1deg);
+    }
+    
+    .maocelular3 {
+        margin: 30px 0 0 1200px;
+        width: 110px;
+        height: 210px;
+        transform: rotate(0deg);
+    }
+    
+    .pecacartao {
+        background-color: #ffffff;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 63px;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .textopeca {
+        font-family: BradescoSans-Bold;
+        color: #CC032D;
+        margin: 0 20px 0 0;
+        font-size: 18px;
+    }
+} 
