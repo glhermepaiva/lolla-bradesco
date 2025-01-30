@@ -1,11 +1,11 @@
 @font-face {
     font-family: BradescoSans;
-    src: url(/assets/fonts/BradescoSans-Regular.ttf);
+    src: url(/assets/fonts/BradescoSans-Regular.woff);
 }
 
 @font-face {
     font-family: BradescoSans-Bold;
-    src: url(/assets/fonts/BradescoSans-Bold.ttf);
+    src: url(/assets/fonts/BradescoSans-Bold.woff);
 }
 
 * {
